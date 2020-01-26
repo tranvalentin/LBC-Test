@@ -5,6 +5,6 @@ import io.reactivex.Single
 import retrofit2.http.GET
 
 interface ILBCApi {
-    @GET("https://static.leboncoin.fr/img/shared/technical-test.json")
+    @GET("img/shared/technical-test.json")
     fun getAlbums(): Single<List<Album>>
 }

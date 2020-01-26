@@ -1,5 +1,6 @@
 package com.tran.valentin.lbctest.service.manager
 
+//Singleton to access managers
 object ManagerLocator {
     private lateinit var managerProvider: IFactoryManager
 

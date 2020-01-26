@@ -10,7 +10,7 @@ import com.tran.valentin.lbctest.service.model.Album
 import java.sql.SQLException
 
 
-class DatabaseHelper(private val context: Context) :
+class DatabaseHelper(context: Context) :
     OrmLiteSqliteOpenHelper(context, DB_NAME, null, DB_VERSION) {
     companion object {
         private const val DB_NAME = "lbc.db"

@@ -10,6 +10,7 @@ import com.tran.valentin.lbctest.service.repository.LBCRepository
 import com.tran.valentin.lbctest.service.repository.local.LocalLBCRepository
 import com.tran.valentin.lbctest.service.repository.remote.RemoteLBCRepository
 
+//Provide managers to ManagerLocator
 class ManagerProvider(private val context: Context) : IFactoryManager {
     private val client: IApiClient by lazy { ApiClient() }
     private val databaseHelper: DatabaseHelper by lazy { DatabaseHelper.getInstance(context) }

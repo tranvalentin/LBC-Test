@@ -12,6 +12,8 @@ import io.reactivex.schedulers.Schedulers
 
 class LBCViewModel(hostApplication: Application, private val manager: ILBCManager) :
     AndroidViewModel(hostApplication) {
+
+    //Data source to be subscribed to, to display ui data
     val dataSource: BehaviorProcessor<List<AlbumUiData>> = BehaviorProcessor.create()
 
     private val compositeDisposable = CompositeDisposable()
