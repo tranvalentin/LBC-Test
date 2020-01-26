@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="error_splash">Erreur lors de la récupération des données</string>
+    <string name="image_content_description">Photo de l\'album</string>
+</resources>
