@@ -22,7 +22,7 @@ class LocalLBCRepository(private val albumDao: AlbumDao) : ILocalLBCRepository {
 
     override fun clean(): Completable {
         return Completable.fromAction {
-            albumDao.deleteBuilder().delete()
+            albumDao.clearTable()
         }
     }
 }
