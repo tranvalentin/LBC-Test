@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name" translatable="false">LBC Test</string>
+    <string name="logo_content_description" translatable="false">Logo</string>
+    <string name="error_splash">Error loading data</string>
+</resources>
